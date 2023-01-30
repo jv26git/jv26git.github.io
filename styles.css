@@ -1,0 +1,80 @@
+  .apple {
+
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  h1 {
+    color: whitesmoke;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(0, 0, 71);
+    background-color: rgb(0, 0, 71);
+    padding: 2px;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+
+  img {
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(92, 120, 219);
+    margin-bottom: 15%;
+    margin-top: 10%;
+    
+  }
+
+  .boton {
+    position: static;
+    bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .oculto {
+    display: none;
+  }
+
+  .mostrar {
+    display: block;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+ #l_toggle {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+ }
